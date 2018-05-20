@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99ff55">
+
+<LinearLayout android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:padding="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="意識・呼吸がなければ、胸骨圧迫を！"
+        android:textColor="#110011"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff00"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00000000"
+            android:src="@drawable/checkbox"
+            android:scaleType="fitEnd"/>
+
+        <TextView
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="119"
+            android:textColor="#ff0011"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00000000"
+            android:src="@drawable/checkbox"
+            android:scaleType="fitEnd"/>
+
+        <TextView
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="AED"
+            android:textColor="#ff0011"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OK？"
+        android:textColor="#ff0011"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="大丈夫！　　　　　　　　　　　　　\n落ち着いてボタンを押してください。"
+        android:textColor="#110011"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnVideo1"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="おとな\n成　人"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/red_button"/>
+
+    <Button
+        android:id="@+id/btnVideo2"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="こども\n小　児（1〜15歳）"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:background="@drawable/red_button"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnVideo3"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="あかちゃん\n乳　児（1歳未満）"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:background="@drawable/red_button"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="#00000000"
+            android:src="@drawable/kyokusyo"
+            android:scaleType="fitEnd"/>
+
+        <TextView
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="大阪市消防局"
+            android:textColor="#110011"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
